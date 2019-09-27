@@ -4,7 +4,7 @@ import { createAppContainer, createStackNavigator } from 'react-navigation';
 
 class calcInputs extends Component { // This class probably should be split into an input class and an calculation class. Eh, oh well
   state = { // I may be using states wrong but I need to save the values of the original input and the calcuated values to be outputed into Details. Any help here is appreciated
-    patientGender: '',
+    patientGender: 'male',
     patientAge: '',
     patientHeight: '', 
     patientWeight: '',
@@ -230,7 +230,13 @@ class calcInputs extends Component { // This class probably should be split into
         <Text style={styles.headers}>SCr: </Text>
         <TextInput style={styles.headers} placeholder="Serum Creatinine levels in mg/dl " keyboardType="number-pad" maxLength={3} onChangeText={(patientSCr) => this.setState({patientSCr})} value={this.state.patientSCr}/>
         <Text></Text>
-        <Button color='#BBBBBB' title="Calculate" onPress={() => { this.calculateCrCl; this.props.navigation.navigate('Details');}}></Button>
+        <Button color='#BBBBBB' title="Calculate" onPress={() => { this.calculateCrCl; this.props.navigation.navigate('Details', {
+              resultsGender: this.state.patientGender,
+              resultsAge: this.state.patientAge,
+              resultsHeight: this.state.patientHeight,
+              resultsWeight: this.state.patientWeight,
+              resultsSCr: this.state.patientSCr,
+            });}}></Button>
      </ScrollView>
     );
   }
@@ -239,27 +245,23 @@ class calcInputs extends Component { // This class probably should be split into
 /****************************************************************************************************/
 
 class Details extends calcInputs { // This is the output of the calculation from calcInputs. This needs to be cleaned up. Any better way for this part is appreciated
-  state = { // The issue is retrieving the values from calcInputs. I am not sure if I need to have states here as well to do that. I currently have this class as a child to calcInputs. Any help here is greatly appreciated
-    resultsGender: '', 
-    resultsAge: '',
-    resultsHeight: '', 
-    resultsWeight: '',
-    resultsSCr: '',
-  }
 
   render () { // The first part is for testing to see original inputs and see the calculated values. This is for testing and can be removed for a clean build. Also need to fix ScrollView to actually scroll
+    
+    const recievedParams = this.props.navigation.state.params;
+    
     return ( // The second part is the crcl values of each perscription. Currently the goal is to take the values calculated from calcInputs and return them in the second part. I am having problems here.
       <ScrollView style={styles.container}> 
         <Text style={styles.headers}>Gender: </Text>
-        <Text style={styles.results}></Text>
+        <Text style={styles.results}>{recievedParams.resultsGender}</Text>
         <Text style={styles.headers}>Age: </Text>
-        <Text style={styles.results}></Text>
+        <Text style={styles.results}>{recievedParams.resultsAge}</Text>
         <Text style={styles.headers}>Height: </Text>
-        <Text style={styles.results}></Text>
+        <Text style={styles.results}>{recievedParams.resultsHeight}</Text>
         <Text style={styles.headers}>Weight: </Text>
-        <Text style={styles.results}></Text>
+        <Text style={styles.results}>{recievedParams.resultsWeight}</Text>
         <Text style={styles.headers}>SCr: </Text>
-        <Text style={styles.results}></Text>
+        <Text style={styles.results}>{recievedParams.resultsSCr}</Text>
         <Text style={styles.headers}>Body Mass Index: </Text>
         <Text style={styles.results}></Text>
         <Text style={styles.headers}>Adjusted Body Weight: </Text>
@@ -438,7 +440,6 @@ const styles = StyleSheet.create({ // Just the stylesheet. Feel free to edit thi
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    justifyContent: 'center',
     margin: 15
   },
 

@@ -8,7 +8,9 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^34.0.1",
+    "braces": "^3.0.2",
+    "expo": "^34.0.4",
+    "expo-cli": "^3.1.2",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
@@ -19,5 +21,18 @@
   "devDependencies": {
     "babel-preset-expo": "^6.0.0"
   },
-  "private": true
+  "private": true,
+  "name": "calc",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganstock/calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loganstock/calc/issues"
+  },
+  "homepage": "https://github.com/loganstock/calc#readme",
+  "description": ""
 }

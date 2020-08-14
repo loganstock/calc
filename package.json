@@ -8,31 +8,24 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "braces": "^3.0.2",
-    "expo": "^34.0.4",
-    "expo-cli": "^3.1.2",
-    "react": "16.8.3",
-    "react-dom": "^16.8.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
-    "react-native-gesture-handler": "^1.4.1",
-    "react-native-web": "^0.11.4",
-    "react-navigation": "^3.12.1"
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/compat": "^5.2.1",
+    "@react-navigation/native": "^5.7.1",
+    "@react-navigation/stack": "^5.7.1",
+    "expo": "^38.0.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.1.1",
+    "react-native-screens": "^2.9.0",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^4.4.0",
+    "react-navigation-stack": "^2.8.2"
   },
   "devDependencies": {
-    "babel-preset-expo": "^6.0.0"
+    "babel-preset-expo": "^8.2.3"
   },
-  "private": true,
-  "name": "calc",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/loganstock/calc.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/loganstock/calc/issues"
-  },
-  "homepage": "https://github.com/loganstock/calc#readme",
-  "description": ""
+  "private": true
 }

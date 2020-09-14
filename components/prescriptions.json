@@ -1,0 +1,321 @@
+{"prescription":[
+    {
+      "prescriptionName": "Cefepime",
+      "crclValues":["60", "30", "11"], 
+      "branch": [
+       {"branchName":"PSA, bacteremia, febrile neutropenia ", 
+        "dosageValues":["2gm q8h ", "2gm q12h ", "2gm q24h ", "1gm q24h "],
+        "hdDosageValues": "1gm q24h after HD "
+       },
+       {"branchName":"SSTI, Intra-abdominal ", 
+        "dosageValues":["2gm q12h ", "2gm q24h ", "1gm q24h ", "500mg q24h "],
+        "hdDosageValues": "500mg q24h after HD " 
+       },
+       {"branchName":"UTI ", 
+        "dosageValues":["1gm q12h ", "1gm q24h ", "500mg q24h ", "250mg q24h "],
+        "hdDosageValues": "500mg q24h after HD "
+       }
+      ]
+    },
+
+    {
+      "prescriptionName": "Cefoxitin ",
+      "crclValues":["50", "30", "10", "5"], 
+      "branch": [
+       {"branchName":"Mod-Severe Infection ", 
+        "dosageValues":["2gm q6-8h ", "2gm q8-12h ", "2gm q12-24h ", "1gm q12-24h ", "1gm q24-48h "],
+        "hdDosageValues": "2gm q24h extra 1gm after HD "
+       },
+       {"branchName":"Uncomplicated Infection ", 
+        "dosageValues":["1gm q6-8h ", "1gm q8-12h ", "1gm q12-24h ", "500mg q12-24h ", "500mg q24-48h "],
+        "hdDosageValues": "2gm q48h extra 1gm after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Cefpodoxime (PO)",
+      "crclValues":["30"], 
+      "branch": [
+      {"branchName":"SSTI ", 
+       "dosageValues":["400mg q12h ", "400mg q24h "],
+       "hdDosageValues": "400mg 3x week after HD "
+      },
+      {"branchName":"CAP/Sinusitis ", 
+       "dosageValues":["200mg q12h ", "200mg q24h "],
+       "hdDosageValues": "200mg 3x week after HD "
+      },
+      {"branchName":"UTI/Pharyngitis", 
+       "dosageValues":["100mg q12h ", "100mg q24h "],
+       "hdDosageValues": "100mg 3x week after HD "
+      }
+     ]       
+    }, 
+    
+    {
+      "prescriptionName": "Ceftaroline",
+      "crclValues":["50", "30", "15"], 
+      "branch": [
+       {"branchName":"N/A ", 
+        "dosageValues":["600mg q12h ", "400mg q12h ", "300mg q12h ", "200mg q12h "],
+        "hdDosageValues": "200mg q12h after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Ceftazidme",
+      "crclValues":["50", "30", "15", "5"], 
+      "branch": [
+       {"branchName":"Severe infections, PSA ", 
+        "dosageValues":["2gm q8h ", "2gm q12h ", "2gm q24h ", "1gm q24h ", "1gm q48h "],
+        "hdDosageValues": "1gm q24h after HD "
+       },
+       {"branchName":"Mild-mod infections ", 
+        "dosageValues":["1gm q8h ", "1gm q12h ", "1gm q24h ", "500mg q24h ", "500mg q48h "],
+        "hdDosageValues": "500mg q24h after HD "
+       }
+      ]
+    },
+
+    {
+      "prescriptionName": "Cefuroxime (PO)",
+      "crclValues":["30", "10"], 
+      "branch": [
+       {"branchName":"Bronchitis/SSTI ", 
+        "dosageValues":["500mg q12h ", "500mg q24h ", "500mg q48h "],
+        "hdDosageValues": "500mg q48h-extra dose after HD "
+       },
+       {"branchName":"UTI/Sinusitis ", 
+        "dosageValues":["250mg q12h ", "250mg q24h ", "250mg q48h "],
+        "hdDosageValues": "250mg q48h-extra dose after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Cefuroxime (IV/IM)",
+      "crclValues":["20", "10"], 
+      "branch": [
+       {"branchName":"Septicemia, meningitis, Intra-abdominal, bone & joint ", 
+        "dosageValues":["1.5gm q6-8h ", "1.5gm q12h ", "1.5gm q24h "],
+        "hdDosageValues": "1.5gm q24h after HD "
+       },
+       {"branchName":"SSTI, UTI", 
+        "dosageValues":["750mg q8h ", "750mg q8h ", "750mg q24h "],
+        "hdDosageValues": "750mg q24h after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Cephalexin (PO)",
+      "crclValues":["50", "10"], 
+      "branch": [
+       {"branchName":"SSTI, Group A Strep ", 
+        "dosageValues":["500mg q6h ", "500mg q8-12h ", "500mg q12-24h "],
+        "hdDosageValues": "250mg q12-24h after HD "
+       },
+       {"branchName":"Pharyngitis, UTI ", 
+        "dosageValues":["250mg q6h ", "250mg q8-12h ", "250mg q12-24h "],
+        "hdDosageValues": "250mg q12-24h after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Ciprofloxacin (PO)",
+      "crclValues":["50", "30"], 
+      "branch": [
+       {"branchName":"Mod/Severe Infection ", 
+        "dosageValues":["750-500mg q12h ", "500-250mg q12h ", "500mg q24h "],
+        "hdDosageValues": "500-250mg q24h after HD "
+       },
+       {"branchName":"Uncomplicated UTI ", 
+        "dosageValues":["250mg q12h ", "250mg q12h ", "250mg q12h "],
+        "hdDosageValues": "250mg q24h after HD "
+       }
+      ]       
+    }, 
+    
+    {
+      "prescriptionName": "Ciprofloxacin (IV)",
+      "crclValues":["60", "30"], 
+      "branch": [
+       {"branchName":"HCAP/Febrile neutropenia ", 
+        "dosageValues":["400mg q8h ", "400mg q12h ", "400mg q24h "],
+        "hdDosageValues": "400mg q24h after HD "
+       },
+       {"branchName":"Mild/Mod Infection ", 
+        "dosageValues":["400mg q12h ", "400mg q24h ", "400mg q24h "],
+        "hdDosageValues": "400mg q24h after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Clarithromycin (PO)",
+      "crclValues":["60", "30"], 
+      "branch": [
+       {"branchName":"COPD exacerbaton (H flu), CAP ", 
+        "dosageValues":["500mg q12h ", "No adjustment unless on ritonavir or atazanavir then reduce dose by 50% ", "250mg q12; if on ritonavir or atazanavir then reduce initial dose by 75% "],
+        "hdDosageValues": "250mg q12 after HD; if on ritonavir or atazanavir then reduce initial dose by 75% "
+       },
+       {"branchName":"CAP, SSTI, COPD (M. cat and S. pneumo) ", 
+        "dosageValues":["250mg q12h ", "No adjustment unless on ritonavir or atazanavir then reduce dose by 50% ", "125mg q12; if on ritonavir or atazanavir then reduce initial dose by 75% "],
+        "hdDosageValues": "125mg q12 after HD; if on ritonavir or atazanavir then reduce initial dose by 75% "
+       }
+      ]       
+    }, 
+
+    {
+      "prescriptionName": "Enoxaparin ",
+      "crclValues":["30"], 
+      "branch": [
+       {"branchName":"Prophylaxis ", 
+        "dosageValues":["40mg q24h ", "30mg q24h "],
+        "hdDosageValues": "30mg q24h "
+       },
+       {"branchName":"Treatment ", 
+        "dosageValues":["1mg/kg q12h ", "1mg/kg q24h "],
+        "hdDosageValues": "1mg/kg q24h "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Ertapenem",
+      "crclValues":["30"], 
+      "branch": [
+       {"branchName":"N/A ", 
+        "dosageValues":["1gm q24h ", "500mg q24h "],
+        "hdDosageValues": "500mg q24h (additional 150mg if dose given within 6hr of HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Famotidine",
+      "crclValues":["50"], 
+      "branch": [
+       {"branchName":"SUP, GERD ", 
+        "dosageValues":["20mg BID ", "Reduce dose by 50% "],
+        "hdDosageValues": "Reduce dose by 50% "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Fluconazole",
+      "crclValues":["50"], 
+      "branch": [
+       {"branchName":"Candidemia ", 
+        "dosageValues":["800mg LD, 400mg q24h ", "800mg LD, 200mg q24h "],
+        "hdDosageValues": "200mg q24h after HD "
+       },
+       {"branchName":"UTI ", 
+        "dosageValues":["200-400mg q24h ", "100-200mg q24h "],
+        "hdDosageValues": "100-200mg q24h after HD "
+       },
+       {"branchName":"Esophageal candidiasis ", 
+        "dosageValues":["200mg q24h ", "100mg q24h "],
+        "hdDosageValues": "100mg q24h after HD "
+       },
+       {"branchName":"Thrush ", 
+        "dosageValues":["200mg LD, 100mg daily ", "200mg LD, 50mg q24h "],
+        "hdDosageValues": "50mg q24h after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Fondaparinux ",
+      "crclValues":["50", "30"], 
+      "branch": [
+       {"branchName":"Prophylaxis ", 
+        "dosageValues":["2.5mg q24h (>= 50kg); Contraindictated < 50kg ", "Use with Caution ", "Alternative Therapy "],
+        "hdDosageValues": "N/A"
+       },
+       {"branchName":"Treatment ", 
+        "dosageValues":["5mg q24h (< 50 kg); 7.5mg q24h (50-100 kg); 10mg q24h (> 100kg) ", "Use with Caution ", "Alternative Therapy "],
+        "hdDosageValues": "N/A "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Levofloxacin ",
+      "crclValues":["50", "20", "10"], 
+      "branch": [
+       {"branchName":"HAP, CAP, Intra-abdominal ", 
+        "dosageValues":["750mg q24h ", "750mg q48h ", "750mg LD, 500mg q48h "],
+        "hdDosageValues": "750mg LD, 500mg q48h "
+       },
+       {"branchName":"UTI ", 
+        "dosageValues":["250mg q24h", "250mg q48h ", "250mg q48h "],
+        "hdDosageValues": "250mg q48h "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Meropenem",
+      "crclValues":["50", "25", "10"], 
+      "branch": [
+       {"branchName":"N/A ", 
+        "dosageValues":["1gm q8h ", "1gm q12h ", "500mg q12h ", "500mg q24h "],
+        "hdDosageValues": "500mg q24h after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Nitrofuratoin",
+      "crclValues":["60"], 
+      "branch": [
+       {"branchName":"UTI ", 
+        "dosageValues":["100mg q12h ", "Alternative Therapy Recommended "],
+        "hdDosageValues": "Alternative Therapy Recommended "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Oseltamivir",
+      "crclValues":["60", "30", "10"], 
+      "branch": [
+       {"branchName":"Treatment dosage ", 
+        "dosageValues":["75mg BID x 5 days ", "30mg BID x 5 days ", "30mg daily x 5 days "],
+        "hdDosageValues": "30mg daily after HD "
+       }
+      ]       
+    },
+
+    {
+      "prescriptionName": "Piperacillin / Tazobactam ",
+      "crclValues":["40", "20"], 
+      "branch": [
+       {"branchName":"HCAP/PSA ", 
+        "dosageValues":["4.5gm q6h ", "3.375gm q6h ", "2.25gm q6h "],
+        "hdDosageValues": "2.25gm q8h after HD "
+       },
+       {"branchName":"N/A ", 
+        "dosageValues":["3.375gm q6h ", "2.25gm q6h ", "2.25gm q8h "],
+        "hdDosageValues": "2.25gm q12h after HD "
+       }
+      ]       
+    },
+
+
+    {
+      "prescriptionName": "SMX/TMP (IV) Bactrim",
+      "crclValues":["30", "15"], 
+      "branch": [
+       {"branchName":"N/A ", 
+        "dosageValues":["5-20mg/kg/day of TMP divided q6-q8h ", "5-20mg/kg/day of TMP divided q12 for 24-48h then reduce dose 50% q24h ", "Alternative Therapy if available 5-20mcg/kg q48h "],
+        "hdDosageValues": "Alternative Therapy if available 2.5-10mcg/kg q24 or 5-20mcg/kg q24h after HD "
+       }
+      ]       
+    }
+  ]
+}
